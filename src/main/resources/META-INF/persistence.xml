@@ -17,18 +17,18 @@
         <class>entities.WorkerEntity</class>
         <class>entities.WorkermaintainscarEntity</class>
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgresql://slon.felk.cvut.cz:5432/batueego"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://"/>
             <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-            <property name="hibernate.connection.username" value="batueego"/>
-            <property name="hibernate.connection.password" value="111"/>
+            <property name="hibernate.connection.username" value=""/>
+            <property name="hibernate.connection.password" value=""/>
             <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
 <!--            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>-->
 <!--            <property name="hibernate.hbm2ddl.auto" value="update"/>-->
 <!--            <property name="hibernate.show_sql" value="true"/>-->
 <!--            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>-->
-<!--            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://slon.felk.cvut.cz:5432/batueego"/>-->
-<!--            <property name="jakarta.persistence.jdbc.user" value="batueego"/>-->
-<!--            <property name="jakarta.persistence.jdbc.password" value="111"/>-->
+<!--            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://>-->
+<!--            <property name="jakarta.persistence.jdbc.user" value=""/>-->
+<!--            <property name="jakarta.persistence.jdbc.password" value=""/>-->
         </properties>
     </persistence-unit>
 </persistence>
